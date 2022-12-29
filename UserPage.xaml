@@ -1,0 +1,31 @@
+﻿<Page x:Class="ekzamen.UserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ekzamen"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="UserPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Image Source="Image/3.jpeg" Grid.Row="0" Grid.RowSpan="3" Margin="35" Width="250"/>
+        <Button Content="Редактировать Профиль" Grid.Row="4" Width="150" Height="35" x:Name="Update" Click="Update_Click"/>
+        <TextBlock Text="Доброе Утро/День/Вечер" Grid.Column="1" VerticalAlignment="Center" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="FIO" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontSize="20" HorizontalAlignment="Center" Width="360" Visibility="Hidden"/>
+        <Button Content="Мероприятия" x:Name="CreateEvent" Click="CreateEvent_Click" Grid.Column="1" Grid.Row="2" Width="360" Height="70"/>
+        <Button Content="Участники" Grid.Column="1" Grid.Row="3" Width="360" Height="70"/>
+        <Button Content="Жури" Grid.Column="1" Grid.Row="4" Width="360" Height="70"/>
+    </Grid>
+</Page>

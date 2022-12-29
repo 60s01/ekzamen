@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ca0f63632e7b4a0b950566d043109b76" Name="Diagram1">
+        <EntityTypeShape EntityType="ekzamenModel.City" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Country" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Event" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Gender" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Grade" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Meropriyatie" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.Napravlenie" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzamenModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ekzamenModel.FK_Event_City" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzamenModel.FK_User_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzamenModel.FK_User_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzamenModel.FK_User_Grade" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzamenModel.FK_User_Meropriyatie" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzamenModel.FK_User_Napravlenie" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
